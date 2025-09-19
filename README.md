@@ -1,7 +1,14 @@
 [![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
-# ds-project-template
+# EDA project Marcus & Aps imaginary client: Charles Christensen
 
-Template for creating ds simple projects
+EDA project within the Neue Fische Bootcamp to learn and pratice EDA techniques and explore data in different ways.
+
+in this repo, you will find:
+- readme to setup your environment properly
+- slideshow about our presentation of results
+- documention with comments and code
+- info about column names and the included values
+- 
 
 ## Requirements
 
@@ -26,17 +33,8 @@ pip freeze > requirements.txt
 
 *Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
 
-### Unit testing (Optional)
-
-If you write python scripts for your data processing methods, you can also write unit tests. In order to run the tests execute in terminal:
-
-```bash
-pytest
-```
-
-This command will execute all the functions in your project that start with the word **test**.
-
 ## Set up your Environment
+
 This repo contains a requirements.txt file with a list of all the packages and dependencies you will need.
 
 Before you can start with plotly in Jupyter Lab you have to install node.js (if you haven't done it before).
