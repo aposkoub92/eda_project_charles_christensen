@@ -4,34 +4,17 @@
 EDA project within the Neue Fische Bootcamp to learn and pratice EDA techniques and explore data in different ways.
 
 in this repo, you will find:
-- readme to setup your environment properly
-- slideshow about our presentation of results
-- documention with comments and code
-- info about column names and the included values
-- 
+- [readme](./readme.md) to setup your environment properly
+- [slideshow](./realty_data_project-marcus_aps.pdf) about our presentation of results
+- [documention](./Documentation.ipynb) with comments and code
+- info about [column names](./column_names.md) and the included values
+- info about the [inital tasks](./assignment.md) and [workflow](./workflow.md)
 
 ## Requirements
 
 - pyenv
 - python==3.11.3
-
-## Setup
-
-One of the first steps when starting any data science project is to create a virtual environment. For this project you have to create this environment from scratch yourself. However, you should be already familiar with the commands you will need to do so. The general workflow consists of... 
-
-* setting the python version locally to 3.11.3
-* creating a virtual environment using the `venv` module
-* activating your newly created environment 
-* upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
-* installing the required packages via `pip`
-
-At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
-
-```bash
-pip freeze > requirements.txt
-```
-
-*Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
+- 
 
 ## Set up your Environment
 
@@ -92,5 +75,8 @@ Before you can start with plotly in Jupyter Lab you have to install node.js (if 
     source .venv/Scripts/activate
     python -m pip install --upgrade pip
     pip install -r requirements.txt
+
+## Data
+The dataset for the notebook is stored as a csv in the data folder.
     ```
  
