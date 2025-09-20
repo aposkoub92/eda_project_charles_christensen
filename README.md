@@ -79,6 +79,6 @@ Before you can start with plotly in Jupyter Lab you have to install node.js (if 
     pip install -r requirements.txt
 
 ## Data
-The dataset for the notebook is stored as a csv in the data folder.
+The dataset for the notebook is stored as a csv (eda.csv).
     ```
  
