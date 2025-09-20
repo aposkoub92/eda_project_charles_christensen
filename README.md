@@ -15,7 +15,7 @@ in this repo, you will find:
 
 - pyenv
 - python==3.11.3
-- 
+
 
 ## Set up your Environment
 
