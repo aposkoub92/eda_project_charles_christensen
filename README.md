@@ -6,8 +6,8 @@ EDA project within the Neue Fische Bootcamp to learn and pratice EDA techniques 
 in this repo, you will find:
 - [data from sql database](./Fetching_the_data_eda.ipynb) how to upload and save your data from sql
 - [slideshow](./realty_data_project-marcus_aps.pdf) about our presentation of results
-- [documention](./Documentation.ipynb) with initial data checking an cleaning
-- [code](./EDA_project.ipynd) wich the code concerning the data analysis
+- [documention](./Documentation.ipynb) with initial data checking and cleaning
+- [code](./EDA_project.ipynb) with the code concerning the data analysis
 - info about [column names](./column_names.md) and the included values
 - info about the [inital tasks](./assignment.md) and [workflow](./workflow.md)
 
