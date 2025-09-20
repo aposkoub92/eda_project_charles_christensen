@@ -10,6 +10,7 @@ in this repo, you will find:
 - [code](./EDA_project.ipynb) with the code concerning the data analysis
 - info about [column names](./column_names.md) and the included values
 - info about the [inital tasks](./assignment.md) and [workflow](./workflow.md)
+- [folder with maps and graphs](./maps/) our results in .png
 
 ## Requirements
 
